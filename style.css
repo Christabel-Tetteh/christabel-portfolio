@@ -1,4 +1,4 @@
-CSS
+
 
 /* NAVY BLUE AND GOLD PORTFOLIO */
 
@@ -98,7 +98,7 @@ footer a {
       display: block;
       margin: 20px auto;
 }
-CSS
+
 .home-content {
     text-align: center;
     padding: 25px;
@@ -134,7 +134,7 @@ CSS
     background-color: #D6A64F;
     color: #101B35;
 }
-CSS
+
 .skills-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -159,6 +159,7 @@ CSS
 .skill-card p {
     color: white;
 }
+
 /* Mobile-friendly settings */
 @media (max-width: 600px) {
     body {
@@ -189,3 +190,15 @@ CSS
         padding: 20px 12px;
     }
 }
+header { position: sticky; top: 0; z-index: 100; }
+
+.btn {
+    display: inline-block;
+    background-color: #D6A64F;
+    color: #101B35;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.btn:hover { background-color: #E8B96A; }
