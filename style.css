@@ -201,4 +201,58 @@ header { position: sticky; top: 0; z-index: 100; }
     font-weight: bold;
     text-decoration: none;
 }
-.btn:hover { background-color: #E8B96A; }
+.btn:hover { background-color: #E8B96A;
+ }
+
+
+/* Project Cards */
+.project-card {
+    background-color: #ffffff;
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    border: 1px solid #eeeeee;
+}
+
+.project-card h3 {
+    color: #D6A64F;
+    margin-bottom: 12px;
+}
+
+.project-card p {
+    line-height: 1.7;
+    color: #444444;
+}
+
+.project-card span {
+    display: inline-block;
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #8a681f;
+}
+/* Contact Card Styling */
+.contact-card {
+    background-color: #ffffff;
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.contact-card h3 {
+    color: #D6A64F;
+    margin-bottom: 15px;
+}
+
+.contact-card a {
+    color: #8a681f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-card a:hover {
+    text-decoration: underline;
+}
